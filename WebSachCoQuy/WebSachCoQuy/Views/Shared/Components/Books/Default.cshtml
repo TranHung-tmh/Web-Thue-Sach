@@ -1,0 +1,19 @@
+﻿@model IEnumerable<WebSachCoQuy.ViewModel.BookVM>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-6">
+            <a  asp-action="DetailBook" asp-controller="DetailBook" asp-route-id="@item.BookID" class="product-link">
+                <div class="product-box">
+                    <div>
+                        <img src="~/images/Thue Sach Co/Thue Sach Co/@item.BookHinh" alt="">
+                    </div>
+                    <div class="product-box-text">
+                        <h4>@item.BookName</h4>
+                        <h3>@item.DonGia $/ 1D</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+</div>

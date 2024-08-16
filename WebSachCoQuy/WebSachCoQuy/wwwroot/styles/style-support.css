@@ -1,0 +1,26 @@
+.question-box{
+    height: 40px;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+}
+.question-box a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+.header{
+    position: fixed;
+    z-index: 99;
+}
+.navigation{
+    position: fixed;
+    padding-top: 50px;
+}
+.question{
+    padding-top: 110px;
+    z-index: 98;
+}
+.footer{
+    z-index: 99;
+    position: fixed;
+}

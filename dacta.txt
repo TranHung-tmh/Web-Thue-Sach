@@ -1,0 +1,139 @@
+------------- ĐẶC TẢ YÊU CẦU WEBSITE CHO THUÊ SÁCH CỔ & QUÝ -------------
+1. GIỚI THIỆU
+1.1 Mục đích
+- Tài liệu này cung cấp sự mô tả đầy đủ về tất cả các chức năng cũng như giới hạn của hệ thống Website cho thuê sách Cổ & Quý này. Tài liệu này giành cho những người quản lý hệ thống và những thành viên trong nhóm xây dựng và phát triển hệ thống này.
+- Tạo trải nghiệm thuê sách trực tuyến thuận tiện: Mục tiêu chính của trang web là cung cấp một nền tảng trực tuyến dễ sử dụng cho việc thuê sách. Thay vì phải đến cửa hàng, người dùng có thể truy cập vào trang web và thuê sách một cách thuận tiện từ bất kỳ đâu và bất kỳ khi nào.
+- Tăng khả năng tiếp cận sách đến mọi người: Trang web sẽ giúp mở rộng phạm vi của việc thuê sách bằng cách cho phép người dùng truy cập vào một thư viện trực tuyến lớn với nhiều thể loại sách khác nhau.
+- Tối ưu hóa quy trình thuê sách: Trang web sẽ cung cấp một quy trình thuê sách trực tuyến mượt mà và nhanh chóng, từ việc tìm kiếm sách đến thanh toán và nhận sách. Mục tiêu là giảm bớt thủ tục phức tạp và tăng tính linh hoạt cho người dùng.
+
+1.2 Phạm vi công việc
+1.2.1 Quản lý sách: 
+- Thêm, sửa, xóa sách: Cho phép quản trị viên thêm sách mới vào cơ sở dữ liệu, cập nhật thông tin sách, và xóa sách không còn được sử dụng.
+- Thêm, sửa, xóa sách: Cho phép quản trị viên thêm sách mới vào cơ sở dữ liệu, cập nhật thông tin sách, và xóa sách không còn được sử dụng.
+- Hiển thị thông tin chi tiết: Cho phép người dùng xem thông tin chi tiết về sách bao gồm tên sách, tác giả, mô tả, số lượng hiện có, và giá thuê.
+
+1.2.2. Quản lí người dùng 
+- Đăng ký và đăng nhập: Người dùng có thể đăng ký tài khoản mới và đăng nhập vào hệ thống để thực hiện các giao dịch.
+- Thông tin tài khoản: Cho phép người dùng cập nhật thông tin cá nhân và thay đổi mật khẩu.
+
+1.2.3. Giao dịch thuê sách:
+- Cho thuê sách: Người dùng có thể xem danh sách sách có sẵn và thực hiện giao dịch thuê sách theo thời gian cụ thể.
+- Thanh toán: Hệ thống cung cấp các phương thức thanh toán an toàn và tiện lợi cho người dùng.
+- Quản lý đơn hàng: Người dùng có thể xem lại lịch sử giao dịch và trạng thái của đơn hàng.
+
+1.2.4. Hỗ trợ và Liên hệ:
+- Trang web cung cấp thông tin hỗ trợ cho người dùng như câu hỏi thường gặp và hướng dẫn sử dụng.
+- Form liên hệ: Người dùng có thể gửi phản hồi, yêu cầu hỗ trợ trực tiếp từ quản trị viên
+
+2. MÔ TẢ TỔNG QUAN
+- Hệ thống được triển khai trên nền tảng Web, theo mô hình MVC (Model-View-Controller)
+- Web server: Nginx/Apache
+- Giao diện: đơn giản, trực quan, thân thiện với người dùng
+- Ngôn ngữ lập trình: PHP/Python/Java/C#
+- Cơ sở dữ liệu: SQLServer/MySQL/PostgreSQL/MongoDB
+- Bộ nhớ đệm: Redis/Memcached
+- Hệ thống thanh toán: VNPay
+
+3. YÊU CẦU CHỨC NĂNG
+3.1. Quản lý sách:
+3.1.1 Thêm sách:
+- Nhập thông tin sách:
+ + Tên sách
+ + Tác giả
+ + Nhà xuất bản
+ + Năm xuất bản
+ + Giá thuê
+ + Số lượng
+ + Tình trạng (mới, cũ)
+ + Mô tả
+ + Hình ảnh
+ + Phân loại sách theo chủ đề, thể loại.
+ + Xác định sách cổ, hiếm dựa trên tiêu chí (năm xuất bản, giá trị, độ hiếm).
+ 
+3.1.2. Tìm kiếm sách:
+- Tìm kiếm theo tên sách, tác giả, nhà xuất bản, chủ đề, thể loại.
+- Lọc kết quả tìm kiếm theo giá thuê, năm xuất bản, tình trạng.
+- Hiển thị thông tin chi tiết của sách khi click vào kết quả tìm kiếm.
+
+3.1.3. Thuê sách:
+- Đăng nhập/tạo tài khoản.
+- Tìm kiếm và chọn sách muốn thuê.
+- Xác nhận thông tin thuê sách:
+ + Tên sách
+ + Số lượng
+ + Thời gian thuê
+ + Giá thuê
+ + Tổng tiền thanh toán
+ + Thanh toán trực tuyến bằng các cổng thanh toán phổ biến (VNPay, MoMo, ZaloPay...).
+ + Xác nhận đơn hàng và gửi thông tin thuê sách qua email cho khách hàng.
+
+3.1.4. Trả sách:
+- Khách hàng đến cửa hàng hoặc gửi sách qua bưu điện.
+- Nhân viên kiểm tra tình trạng sách.
+- Xác nhận trả sách và hoàn tiền cho khách hàng (nếu có đặt cọc).
+
+3.1.5. Quản lý tài khoản:
+- Xem thông tin tài khoản.
+- Thay đổi thông tin tài khoản.
+- Lịch sử thuê sách.
+- Lưu sách yêu thích.
+
+3.2. Quản lý người dùng:
+3.2.1. Đăng ký tài khoản:
+- Nhập thông tin cá nhân:
+ + Họ tên
+ + Email
+ + Mật khẩu
+ + Số điện thoại
+ + Địa chỉ
+- Xác nhận email và kích hoạt tài khoản.
+
+3.2.2. Đăng nhập tài khoản:
+- Nhập email và mật khẩu.
+- Quên mật khẩu (gửi email khôi phục mật khẩu).
+
+3.3. Hệ thống quản trị:
+3.3.1. Quản lý danh mục sách:
+- Thêm, sửa, xóa danh mục sách.
+- Phân cấp danh mục sách theo chủ đề, thể loại.
+
+3.3.2. Quản lý thông tin sách:
+- Thêm, sửa, xóa thông tin sách.
+- Cập nhật giá thuê, số lượng, tình trạng sách.
+
+3.3.3. Quản lý đơn hàng:
+- Xem danh sách đơn hàng.
+- Xác nhận đơn hàng, cập nhật trạng thái đơn hàng.
+- Quản lý thanh toán.
+
+3.3.4. Thống kê báo cáo:
+- Thống kê số lượng sách theo chủ đề, thể loại.
+- Thống kê doanh thu theo thời gian.
+- Báo cáo tình hình hoạt động của web.
+
+4. YÊU CẦU PHI CHỨC NĂNG
+4.1 Hiệu suất:
+- Trang web tải nhanh, mượt mà.
+- Hệ thống có khả năng xử lý nhiều truy cập cùng lúc.
+
+4.2 Bảo mật:
+- Lưu trữ thông tin người dùng an toàn.
+- Bảo mật thanh toán trực tuyến.
+
+4.3 Khả năng mở rộng:
+- Hệ thống có thể mở rộng để thêm nhiều chức năng mới.
+- Có thể nâng cấp phần cứng và phần mềm dễ dàng.
+
+4.4 Khả năng sử dụng:
+- Giao diện đơn giản, dễ sử dụng.
+- Hỗ trợ đa dạng thiết bị (PC, laptop, tablet, smartphone).
+
+4.5 Bảo trì:
+- Hệ thống dễ dàng bảo trì, cập nhật.
+- Có khả năng sao lưu và phục hồi dữ liệu.
+
+
+
+
+
+

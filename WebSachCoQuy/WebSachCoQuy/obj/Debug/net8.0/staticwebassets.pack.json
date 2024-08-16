@@ -1,0 +1,717 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSachCoQuy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebSachCoQuy.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bookcase.html",
+      "PackagePath": "staticwebassets\\bookcase.html"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap-5.3.3-dist\\bootstrap-5.3.3-dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Book-3.png",
+      "PackagePath": "staticwebassets\\images\\Book-3.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Book_1.webp",
+      "PackagePath": "staticwebassets\\images\\Book_1.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Book_2.jpg",
+      "PackagePath": "staticwebassets\\images\\Book_2.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Book_4.jpg",
+      "PackagePath": "staticwebassets\\images\\Book_4.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Book_5.jpg",
+      "PackagePath": "staticwebassets\\images\\Book_5.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Anna Karenina.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Anna Karenina.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Anna Karenina.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Anna Karenina.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Divine Comedy.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Divine Comedy.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Divine Comedy.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Divine Comedy.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Don Quixote.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Don Quixote.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Don Quixote.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Don Quixote.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Gulliver's Travels.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Gulliver's Travels.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Gulliver's Travels.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Gulliver's Travels.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\HADJI MURAD.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\HADJI MURAD.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP.png",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP1.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP1.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP2.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP2.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP3.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP3.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP4.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP4.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP5.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP5.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP6.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP6.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP7.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP7.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP8.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Harry Potter\\HP8.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Ilya_Efimovich_Repin_(1844-1930)_-_Portrait_of_Leo_Tolstoy_(1887).jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Ilya_Efimovich_Repin_(1844-1930)_-_Portrait_of_Leo_Tolstoy_(1887).jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Les Miserables.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Les Miserables.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Les Miserables.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Les Miserables.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Paradise Lost.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Paradise Lost.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Paradise Lost.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Paradise Lost.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\THE DEATH OF IVAN ILYCH.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\THE DEATH OF IVAN ILYCH.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\THE HUNCHBACK OF NOTRE DAME.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\THE HUNCHBACK OF NOTRE DAME.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\THE MAN WHO LAUGHS.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\THE MAN WHO LAUGHS.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The Canterbury Tales.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The Canterbury Tales.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The CanterburyTales.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The CanterburyTales.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The Iliad.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The Iliad.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The Iliad.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The Iliad.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The Odyssey.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The Odyssey.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\The Odyssey.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\The Odyssey.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Ulysses.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Ulysses.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\Ulysses.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\Ulysses.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\WAR AND PEACE.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\WAR AND PEACE.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\banner1.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\banner2.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\banner3.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\image-w856.webp",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\image-w856.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\les-miserables-461.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\les-miserables-461.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\les-travailleurs-de-la-mer-37.jpg",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\les-travailleurs-de-la-mer-37.jpg"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\Thue Sach Co\\Thue Sach Co\\~$vine Comedy.docx",
+      "PackagePath": "staticwebassets\\images\\Thue Sach Co\\Thue Sach Co\\~$vine Comedy.docx"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\banner1\\doc-sach-chat-luong.webp",
+      "PackagePath": "staticwebassets\\images\\banner1\\doc-sach-chat-luong.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\banner1\\doc-sach-khong-gioi-han.webp",
+      "PackagePath": "staticwebassets\\images\\banner1\\doc-sach-khong-gioi-han.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\banner1\\doc-sach-khong-nhin-gia.webp",
+      "PackagePath": "staticwebassets\\images\\banner1\\doc-sach-khong-nhin-gia.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\banner1\\trai-nghiem-mien-phi.webp",
+      "PackagePath": "staticwebassets\\images\\banner1\\trai-nghiem-mien-phi.webp"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\thanhtoan\\momo.png",
+      "PackagePath": "staticwebassets\\images\\thanhtoan\\momo.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\thanhtoan\\shopeepay.png",
+      "PackagePath": "staticwebassets\\images\\thanhtoan\\shopeepay.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\thanhtoan\\vnpay.png",
+      "PackagePath": "staticwebassets\\images\\thanhtoan\\vnpay.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\images\\thanhtoan\\zalopay.png",
+      "PackagePath": "staticwebassets\\images\\thanhtoan\\zalopay.png"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\scripts\\script-login.js",
+      "PackagePath": "staticwebassets\\scripts\\script-login.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\scripts\\script.js",
+      "PackagePath": "staticwebassets\\scripts\\script.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\scripts\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\scripts\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\styles\\bookcase.css",
+      "PackagePath": "staticwebassets\\styles\\bookcase.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\styles\\style-login.css",
+      "PackagePath": "staticwebassets\\styles\\style-login.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\styles\\style-support.css",
+      "PackagePath": "staticwebassets\\styles\\style-support.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\styles\\style.css",
+      "PackagePath": "staticwebassets\\styles\\style.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\styles\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\styles\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\wwwroot\\support.html",
+      "PackagePath": "staticwebassets\\support.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSachCoQuy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebSachCoQuy.props",
+      "PackagePath": "build\\WebSachCoQuy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebSachCoQuy.props",
+      "PackagePath": "buildMultiTargeting\\WebSachCoQuy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebSachCoQuy.props",
+      "PackagePath": "buildTransitive\\WebSachCoQuy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CNPM\\WebSachCoQuy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\views\\detailbook\\detailbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\views\\detailbook\\detailbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\controllers\\detailbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\controllers\\detailbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\viewmodel\\catalogiesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\viewmodel\\catalogiesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\viewmodel\\detailbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\viewmodel\\detailbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\viewmodel\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\viewmodel\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|d:\\cnpm\\websachcoquy\\websachcoquy\\views\\shared\\components\\books\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{727D13F8-30BA-4F9B-9DD4-843A3757D81F}|WebSachCoQuy\\WebSachCoQuy.csproj|solutionrelative:websachcoquy\\views\\shared\\components\\books\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\Data\\Book.cs",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Data\\Book.cs",
+              "RelativeToolTip": "WebSachCoQuy\\Data\\Book.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:54:03.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutIndex.cshtml",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeToolTip": "WebSachCoQuy\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T12:21:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailBookVM.cs",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\DetailBookVM.cs",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\ViewModel\\DetailBookVM.cs",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\DetailBookVM.cs",
+              "RelativeToolTip": "WebSachCoQuy\\ViewModel\\DetailBookVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:53:27.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogiesVM.cs",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\CatalogiesVM.cs",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\ViewModel\\CatalogiesVM.cs",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\CatalogiesVM.cs",
+              "RelativeToolTip": "WebSachCoQuy\\ViewModel\\CatalogiesVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:53:03.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookVM.cs",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\BookVM.cs",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\ViewModel\\BookVM.cs",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\ViewModel\\BookVM.cs",
+              "RelativeToolTip": "WebSachCoQuy\\ViewModel\\BookVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:53:00.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\Shared\\Components\\Books\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\Views\\Shared\\Components\\Books\\Default.cshtml",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\Shared\\Components\\Books\\Default.cshtml",
+              "RelativeToolTip": "WebSachCoQuy\\Views\\Shared\\Components\\Books\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T16:26:02.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailBookController.cs",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Controllers\\DetailBookController.cs",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\Controllers\\DetailBookController.cs",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Controllers\\DetailBookController.cs",
+              "RelativeToolTip": "WebSachCoQuy\\Controllers\\DetailBookController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:13:34.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailBook.cshtml",
+              "DocumentMoniker": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\DetailBook\\DetailBook.cshtml",
+              "RelativeDocumentMoniker": "WebSachCoQuy\\Views\\DetailBook\\DetailBook.cshtml",
+              "ToolTip": "D:\\CNPM\\WebSachCoQuy\\WebSachCoQuy\\Views\\DetailBook\\DetailBook.cshtml",
+              "RelativeToolTip": "WebSachCoQuy\\Views\\DetailBook\\DetailBook.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAcwHUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T16:05:50.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

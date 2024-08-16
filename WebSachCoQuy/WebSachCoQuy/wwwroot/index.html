@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+     <!--- css -->
+     <link rel="stylesheet" href="/styles/style.css">
+     <!-- boostrap -->
+     <link rel="stylesheet" href="/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap-grid.css">
+     <link rel="stylesheet" href="/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+     <!-- google fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/swiper-bundle.min.css">
+</head>
+<body style="height: 2000px;">
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="header-top-left"> 
+                            <div class="phone"><a href="tel:+843693437706"><i class="fa-solid fa-phone"></i>0345.555.888</a></div>
+                            <div class="phone"><a href="mailto:bhcuonggg@gmail.com"><i class="fa-solid fa-envelope"></i>fahahasince2024@gmail.com</a></div>
+     
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="header-top-right">
+                            <div class="support"><a href="/support.html"><i class="fa-solid fa-circle-question"></i>Hỗ trợ</a></div>
+                            <div class="support"><a href="#"><i class="fa-solid fa-address-book"></i>Liên hệ</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a class="login2" href="/login.html"><i class="fa fa-user"></i>Tài Khoản</a>
+                            <a class="hover-backroud" href="#">Trang chủ</a>
+                            <a class="hover-backroud" href="#">Sản phẩm </a>
+                            <a class="hover-backroud" href="#">Giới thiệu</a>
+                          </div>
+                        <div id="main" class="navigation-left">
+                            <div class="menu"><button class="openbtn" onclick="openNav()">&#9776;</button></div>                           
+                            <div><img src="/images/logo/logo.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="navigation-center">
+                            <div class="navbar">
+                                <nav>
+                                    <a href="/index.html">Trang chủ</a>
+                                    <a href="#sanpham">Sản phẩm</a>
+                                    <a href="">Giới thiệu</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="navigation-right">
+                            <div class="cart">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a>
+                            </div>  
+                            <div class="login">
+                                <a href="/login.html"><i class="fa fa-user"></i>Tài Khoản</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="slide">
+        <div class="container box-banner" >
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="/images/Thue Sach Co/Thue Sach Co/banner1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images/Thue Sach Co/Thue Sach Co/banner2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images//Thue Sach Co/Thue Sach Co/banner3.png" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="side-bar">
+        <div class="container">
+            <div class="col-lg-4">
+                <div class="dropdown">
+                    <button style="background-color: #f5f5f5c1; color: black;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sản phẩm
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Thiếu nhi</a></li>
+                        <li><a class="dropdown-item" href="#">Văn học</a></li>
+                        <li><a class="dropdown-item" href="#">Kinh tế</a></li>
+                        <li><a class="dropdown-item" href="#">Lịch sử</a></li>
+                        <li><a class="dropdown-item" href="#">Y học</a></li>
+                        <li><a class="dropdown-item" href="#">Ngoại ngữ</a></li>
+                        <li><a class="dropdown-item" href="#">Tiểu sử</a></li>
+                        <li><a class="dropdown-item" href="#">Công nghệ</a></li>
+                        <li><a class="dropdown-item" href="#">Truyện tranh</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-slider">
+        <div class="container">
+            <div class="row">
+               <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overplay"></span>
+                                    <div class="card-image">
+                                        <img src="/images/Book_2.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Nghệ thuật tư duy rành mạch</h2>
+                                    <p class="description">Rolf Dobelli</p>
+                                    <button class="button">Xem thêm</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overplay"></span>
+                                    <div class="card-image">
+                                        <img src="/images/Book_2.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Nghệ thuật tư duy phản biện</h2>
+                                    <p class="description">Albert Rutheford</p>
+                                    <button class="button">Xem thêm</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overplay"></span>
+                                    <div class="card-image">
+                                        <img src="/images/Book-3.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Kỷ luật bản thân</h2>
+                                    <p class="description">Peg Dawson & Richard Guare</p>
+                                    <button class="button">Xem thêm</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overplay"></span>
+                                    <div class="card-image">
+                                        <img src="/images/product-slider/Book_4.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Không ai có thể làm bạn tổn thương</h2>
+                                    <p class="description">Yoo Eun Jung</p>
+                                    <button class="button">Xem thêm</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overplay"></span>
+                                    <div class="card-image">
+                                        <img src="/images/product-slider/Book_5.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Tết ở làng địa ngục</h2>
+                                    <p class="description">Thảo Trang</p>
+                                    <button class="button">Xem thêm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="height: 70px;">
+                    <div class="banner-tittle">
+                        <h2>FAHAHA CÓ GÌ ?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-box">
+                        <img src="/images/banner1/doc-sach-khong-gioi-han.webp" alt="">
+                        <h2>Đọc sách không giới hạn</h2>
+                        <p>Thoải mái đọc như sách của bạn: Không giới hạn số ngày giữ sách, không phí phạt chậm trả. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-box">
+                        <img src="/images/banner1/doc-sach-khong-nhin-gia.webp" alt="">
+                        <h2>Đọc sách không nhìn giá</h2>
+                        <p>Không phải canh sales, tính giá thuê: Vì giá tại FAHAHA là cực kì hợp lý.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-box">
+                        <img src="/images/banner1/doc-sach-chat-luong.webp" alt="">
+                        <h2>Đọc sách chất lượng</h2>
+                        <p>Tủ sách hàng tuyển: FAHAHA chọn rất kỹ những cuốn sách nhập về. Bạn có thể tin tưởng hoàn toàn về nguồn gốc và chất lượng kiến thức.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-box">
+                        <img src="/images/banner1/trai-nghiem-mien-phi.webp" alt="">
+                        <h2>Khám phá kiến thức mới</h2>
+                        <p>Tiếp cận hàng nghìn đầu sách đa dạng, từ khoa học đến văn học, từ lịch sử đến kỹ thuật.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sanpham" class="product-hot">
+        <div class="container">
+            <div class="row">
+                <div style="height: 50px;" class="col-lg-12">
+                    <div class="section-tittle">
+                        <h2>SẢN PHẨM</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6" >
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Anna Karenina.jpg" alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Anna Karenina</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Divine Comedy.jpg" alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Divine Comedy</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Don Quixote.jpg" alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Don Quixote</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Gulliver's Travels.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Gulliver's Travels</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Les Miserables.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Les Miserables</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Paradise Lost.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Paradise Lost</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/The Canterbury Tales.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>The Canterbury Tales</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/The Iliad.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>The Iliad</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/The Odyssey.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>The Odyssey</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="product-link">
+                        <div class="product-box">
+                            <div><img src="/images/Thue Sach Co/Thue Sach Co/Ulysses.jpg " alt="">
+                            </div>
+                            <div class="product-box-text">
+                                <h4>Ulysses</h4>
+                                <h3>82.600đ / 1D</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="footer-left">
+                        <h4>Liên hệ</h4>
+                        <ul class="footer-contact">
+                            <li><strong>Địa chỉ:</strong> 180 Cao Lỗ, Phường 4, Quận 8, TP HCM</li>
+                            <li><strong>Điện thoại:</strong> 0345.555.888</li>
+                            <li><strong>Email:</strong> fahahasince2024@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                     <div class="footer-right">
+                            <h4>Theo dõi chúng tôi</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="footer-reserved">
+                        <div class="fakebg"></div>
+                                        
+                        <h6>©2024 FAHAHA BookStore. All Rights Reserved.</h6>
+                        <span class="scrolltotop"><a href=""><i class="fa-solid fa-arrow-up"></a></i></span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

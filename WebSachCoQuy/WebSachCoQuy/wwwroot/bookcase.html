@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bookcase.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="container__content row">
+          <div class="container__content-product col-lg-5 col-md-5 .col-1">
+            <div class="container__content-product-div">
+              <div class="container__content-product-div-img">
+                <img src="img/categories/The Iliad.jpg" alt="" class="container__content-product-img"/>
+              </div>
+              <div class="container__content-product-review">
+                <button class="container__content-product-review-btn">
+                    Đọc thử
+                </button>
+              </div>
+            </div>
+          </div>
+        <div class="container__content-describle col-lg-7 col-md-7 .col-1">
+            <div class="container__content-describle-title">
+                <p>The Iliad</p>
+            </div>
+            <div class="container__content-describle-describle">
+                <p>Tác giả: Homer</p>
+                <p>Năm phát hành: </p>
+            </div>
+            <div class="container__content-describle-price">
+                <div class="container__content-describle-price-opption">
+                    <p>Thuê 1 tuần </p><p style="color: #C92127;">100.000đ</p><input type="checkbox" name="" id="">
+                </div>
+                <div class="container__content-describle-price-opption">
+                    <p>Thuê 1 tháng  </p><p style="color: #C92127;">300.000đ</p><input type="checkbox" name="" id="">
+                </div>
+                <div class="container__content-describle-price-opption">
+                    <p>Thuê 1 năm  </p><p style="color: #C92127;">3.000.000đ</p><input type="checkbox" name="" id="">
+                </div>
+                <div class="container__content-describle-price-total">
+                    <p>Thành tiền: </p><p style="color: #C92127; margin-left: 10px;">0đ</p>
+                </div>
+                <div class="container__content-product-add">
+                    <button class="container__content-product-add-cart">
+                      <i class="fa-solid fa-cart-shopping container__content-product-add-cart-icon"></i>
+                      Thêm vào giỏ hàng
+                    </button>
+                    <button class="container__content-product-buy">Đặt cọc</button>
+                  </div>
+            </div>
+        </div>
+        </div>
+        <div class="container__describle">
+            <ul class="container__describle-list">
+                <li class="container__describle-item" id="describle-btn">Mô tả</li>
+                <li class="container__describle-item" id="information-more-btn">Thông tin bổ sung</li>
+                <li class="container__describle-item" id="valuate-btn">Đánh giá (0)</li>
+            </ul>
+            <div class="container__describle-describle">
+                Khám phá cuộc chiến huyền thoại và những tình cảm đằng sau bức tranh của "The Iliad" của Homer. Tác phẩm văn học kinh điển này là một hành trình sâu sắc vào thế giới của cuộc chiến Trốn Tro, nơi các vị thần và anh hùng chiến đấu, nhưng cũng là nơi mà tình yêu, tự ái và lòng tự hào con người được thể hiện trong những khoảnh khắc đầy cảm xúc.
+                    "The Iliad" không chỉ là một cuộc chiến giữa các anh hùng, mà còn là một câu chuyện về con người và những mâu thuẫn nội tại của họ, với những bài học về lòng trắc ẩn, lòng trung thành và ý nghĩa của sự sống và cái chết. Từ những trận đấu đẫm máu đến những giai điệu ca tụng vinh quang, "The Iliad" là một tác phẩm tuyệt vời không thể bỏ qua trong bất kỳ bộ sưu tập văn học nào. Hãy đắm chìm vào thế giới của Homer và khám phá những bí ẩn và sức mạnh của tâm hồn con người.
+            </div>
+            <div class="container__describle-information-more">
+                Không có thông tin khác
+            </div>
+            <div class="container__describle-valuate">
+                Chưa có đánh giá nào (Hãy đăng nhập để đánh giá) <br>
+                Đánh giá của bạn <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        var describle_btn = document.querySelector('#describle-btn');
+        var information_btn = document.querySelector('#information-more-btn');
+        var valuate_btn = document.querySelector('#valuate-btn');
+        var describle_btn = document.querySelector('#describle-btn');
+        var describle = document.querySelector(".container__describle-describle");
+        var information = document.querySelector(".container__describle-information-more");
+        var valuate = document.querySelector(".container__describle-valuate");
+        describle_btn.onclick=(e)=>{
+        describle.style.display='block';
+        information.style.display='none';
+        valuate.style.display='none';
+        describle_btn.style.backgroundColor = 'white'; 
+        describle_btn.style.borderBottom = '2px solid black'; 
+        describle_btn.style.borderRadius = '0';
+        information_btn.style.backgroundColor = '#ede7e7'; 
+        information_btn.style.borderBottom = 'none'; 
+        information_btn.style.borderRadius = '5px';
+        valuate_btn.style.backgroundColor = '#ede7e7'; 
+        valuate_btn.style.borderBottom = 'none'; 
+        valuate_btn.style.borderRadius = '5px';
+      }
+      information_btn.onclick=(e)=>{
+        describle.style.display='none';
+        information.style.display='block';
+        valuate.style.display='none';
+        information_btn.style.backgroundColor = 'white'; 
+        information_btn.style.borderBottom = '2px solid black'; 
+        information_btn.style.borderRadius = '0';
+        describle_btn.style.backgroundColor = '#ede7e7'; 
+        describle_btn.style.borderBottom = 'none'; 
+        describle_btn.style.borderRadius = '5px';
+        valuate_btn.style.backgroundColor = '#ede7e7'; 
+        valuate_btn.style.borderBottom = 'none'; 
+        valuate_btn.style.borderRadius = '5px';
+      }
+      valuate_btn.onclick=(e)=>{
+        describle.style.display='none';
+        information.style.display='none';
+        valuate.style.display='block';
+        valuate_btn.style.backgroundColor = 'white'; 
+        valuate_btn.style.borderBottom = '2px solid black'; 
+        valuate_btn.style.borderRadius = '0';
+        information_btn.style.backgroundColor = '#ede7e7'; 
+        information_btn.style.borderBottom = 'none'; 
+        information_btn.style.borderRadius = '5px';
+        describle_btn.style.backgroundColor = '#ede7e7'; 
+        describle_btn.style.borderBottom = 'none'; 
+        describle_btn.style.borderRadius = '5px';
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+﻿@model WebSachCoQuy.ViewModel.DetailBookVM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/styles/style.css">
+    <link rel="stylesheet" href="~/styles/bookcase.css" />
+    <link rel="stylesheet" href="~/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="~/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="header-top-left">
+                                <div class="phone"><a href="tel:+843693437706"><i class="fa-solid fa-phone"></i>0345.555.888</a></div>
+                                <div class="phone"><a href="mailto:bhcuonggg@gmail.com"><i class="fa-solid fa-envelope"></i>fahahasince2024@gmail.com</a></div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="header-top-right">
+                                <div class="support"><a href="/support.html"><i class="fa-solid fa-circle-question"></i>Hỗ trợ</a></div>
+                                <div class="support"><a href="#"><i class="fa-solid fa-address-book"></i>Liên hệ</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation" style="height:80px;margin-bottom:40px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a class="login2" href="/login.html"><i class="fa fa-user"></i>Tài Khoản</a>
+                            <a class="hover-backroud" href="#">Trang chủ</a>
+                            <a class="hover-backroud" href="#">Sản phẩm </a>
+                            <a class="hover-backroud" href="#">Giới thiệu</a>
+                        </div>
+                        <div id="main" class="navigation-left">
+                            <div class="menu"><button class="openbtn" onclick="openNav()">&#9776;</button></div>
+                            <div><img src="/images/logo/logo.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="navigation-center">
+                            <div class="navbar">
+                                <nav>
+                                    <a href="/index.html">Trang chủ</a>
+                                    <a href="#sanpham">Sản phẩm</a>
+                                    <a href="">Giới thiệu</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="navigation-right">
+                            <div class="cart">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a>
+                            </div>
+                            <div class="login">
+                                <a href="/login.html"><i class="fa fa-user"></i>Tài Khoản</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__content row">
+                <div class="container__content-product col-lg-5 col-md-5 .col-1">
+                    <div class="container__content-product-div">
+                        <div class="container__content-product-div-img">
+                            <img src="~/images/Thue Sach Co/Thue Sach Co/@Model.Img" alt="" class="container__content-product-img" />
+                        </div>
+                        <div class="container__content-product-review">
+                            <button class="container__content-product-review-btn">
+                                Đọc thử
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__content-describle col-lg-7 col-md-7 .col-1">
+                    <div class="container__content-describle-title">
+                        <p>@Model.Title</p>
+                    </div>
+                    <div class="container__content-describle-describle">
+                        <p>Tác giả: @Model.Author</p>
+                        <p>Năm phát hành:@Model.PublishedDate </p>
+                    </div>
+                <div class="container__content-describle-price">
+                    <div class="container__content-describle-price-opption">
+                        <p>Thuê 1 tuần </p>
+                        <p style="color: #C92127;" class="price-value">@(Model.RentalPrice*7m*0.95m) $</p>
+                        <input type="checkbox" name="rentalOption" class="rental-checkbox" data-price="@(Model.RentalPrice*7m*0.95m)">
+                    </div>
+                    <div class="container__content-describle-price-opption">
+                        <p>Thuê 1 tháng </p>
+                        <p style="color: #C92127;" class="price-value">@(Model.RentalPrice * 30m * 0.9m) $</p>
+                        <input type="checkbox" name="rentalOption" class="rental-checkbox" data-price="@(Model.RentalPrice * 30m * 0.9m)">
+                    </div>
+                    <div class="container__content-describle-price-opption">
+                        <p>Thuê 1 năm </p>
+                        <p style="color: #C92127;" class="price-value">@(Model.RentalPrice * 365m * 0.8m) $</p>
+                        <input type="checkbox" name="rentalOption" class="rental-checkbox" data-price="@(Model.RentalPrice * 365m * 0.8m)">
+                    </div>
+                    <div class="container__content-describle-price-total">
+                        <p>Thành tiền: </p>
+                        <p id="totalPrice" style="color: #C92127; margin-left: 10px;">0đ</p>
+                    </div>
+                </div>
+                        <div class="container__content-product-add">
+                            <button class="container__content-product-add-cart">
+                                <i class="fa-solid fa-cart-shopping container__content-product-add-cart-icon"></i>
+                                Thêm vào giỏ hàng
+                            </button>
+                            <button class="container__content-product-buy">Đặt cọc</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__describle">
+                <ul class="container__describle-list">
+                    <li class="container__describle-item" id="describle-btn">Mô tả</li>
+                    <li class="container__describle-item" id="information-more-btn">Thông tin bổ sung</li>
+                    <li class="container__describle-item" id="valuate-btn">Đánh giá (0)</li>
+                </ul>
+                <div class="container__describle-describle">
+                @Model.Description
+                </div>
+                <div class="container__describle-information-more">
+                    Không có thông tin khác
+                </div>
+                <div class="container__describle-valuate">
+                    Chưa có đánh giá nào (Hãy đăng nhập để đánh giá) <br>
+                    Đánh giá của bạn <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container" style="min-height:200px;">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="footer-left">
+                            <h4>Liên hệ</h4>
+                            <ul class="footer-contact">
+                                <li><strong>Địa chỉ:</strong> 180 Cao Lỗ, Phường 4, Quận 8, TP HCM</li>
+                                <li><strong>Điện thoại:</strong> 0345.555.888</li>
+                                <li><strong>Email:</strong> fahahasince2024@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="footer-right">
+                            <h4>Theo dõi chúng tôi</h4>
+                            <ul>
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>YouTube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="footer-reserved">
+                            <div class="fakebg"></div>
+
+                            <h6>©2024 FAHAHA BookStore. All Rights Reserved.</h6>
+                            <span class="scrolltotop"><a href=""><i class="fa-solid fa-arrow-up"></a></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var describle_btn = document.querySelector('#describle-btn');
+        var information_btn = document.querySelector('#information-more-btn');
+        var valuate_btn = document.querySelector('#valuate-btn');
+        var describle_btn = document.querySelector('#describle-btn');
+        var describle = document.querySelector(".container__describle-describle");
+        var information = document.querySelector(".container__describle-information-more");
+        var valuate = document.querySelector(".container__describle-valuate");
+        describle_btn.onclick = (e) => {
+            describle.style.display = 'block';
+            information.style.display = 'none';
+            valuate.style.display = 'none';
+            describle_btn.style.backgroundColor = 'white';
+            describle_btn.style.borderBottom = '2px solid black';
+            describle_btn.style.borderRadius = '0';
+            information_btn.style.backgroundColor = '#ede7e7';
+            information_btn.style.borderBottom = 'none';
+            information_btn.style.borderRadius = '5px';
+            valuate_btn.style.backgroundColor = '#ede7e7';
+            valuate_btn.style.borderBottom = 'none';
+            valuate_btn.style.borderRadius = '5px';
+        }
+        information_btn.onclick = (e) => {
+            describle.style.display = 'none';
+            information.style.display = 'block';
+            valuate.style.display = 'none';
+            information_btn.style.backgroundColor = 'white';
+            information_btn.style.borderBottom = '2px solid black';
+            information_btn.style.borderRadius = '0';
+            describle_btn.style.backgroundColor = '#ede7e7';
+            describle_btn.style.borderBottom = 'none';
+            describle_btn.style.borderRadius = '5px';
+            valuate_btn.style.backgroundColor = '#ede7e7';
+            valuate_btn.style.borderBottom = 'none';
+            valuate_btn.style.borderRadius = '5px';
+        }
+        valuate_btn.onclick = (e) => {
+            describle.style.display = 'none';
+            information.style.display = 'none';
+            valuate.style.display = 'block';
+            valuate_btn.style.backgroundColor = 'white';
+            valuate_btn.style.borderBottom = '2px solid black';
+            valuate_btn.style.borderRadius = '0';
+            information_btn.style.backgroundColor = '#ede7e7';
+            information_btn.style.borderBottom = 'none';
+            information_btn.style.borderRadius = '5px';
+            describle_btn.style.backgroundColor = '#ede7e7';
+            describle_btn.style.borderBottom = 'none';
+            describle_btn.style.borderRadius = '5px';
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var checkboxes = document.querySelectorAll('.rental-checkbox');
+            var totalPriceElement = document.getElementById('totalPrice');
+
+            checkboxes.forEach(function (checkbox) {
+                checkbox.addEventListener('change', function () {
+                    checkboxes.forEach(function (cb) {
+                        if (cb !== checkbox) {
+                            cb.checked = false;
+                        }
+                    });
+
+                    if (checkbox.checked) {
+                        var price = parseFloat(checkbox.getAttribute('data-price')).toFixed(2).replace(/\.?0+$/, '')+'$';
+                        totalPriceElement.textContent = price.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+                    } else {
+                        totalPriceElement.textContent = '0$';
+                    }
+                });
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var priceElements = document.querySelectorAll('.price-value');
+
+            priceElements.forEach(function (element) {
+                var priceText = element.textContent.trim();
+                var priceValue = parseFloat(priceText.replace(/\$/, '')); // Loại bỏ dấu $
+                // Loại bỏ các số 0 không cần thiết sau dấu chấm
+                var formattedPrice = priceValue.toFixed(2).replace(/\.?0+$/, '');
+                element.textContent = formattedPrice + ' $'; // Thêm lại dấu $
+            });
+        });
+    </script>
+
+
+</body>
+</html>
+
